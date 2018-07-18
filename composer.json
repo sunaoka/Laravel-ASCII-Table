@@ -9,5 +9,15 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tridcatij\\Asciitables\\AsciitableServiceProvider"
+            ],
+            "aliases": {
+                "Asciitable": "Tridcatij\\Asciitables\\AsciitableFacade"
+            }
+        }
+    }
 }
